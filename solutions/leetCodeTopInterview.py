@@ -21,3 +21,26 @@ def merge_sort(nums1, m, nums2, n):
             nums1[last_pointer] = nums1[num1_pointer]
             num1_pointer -= 1
         last_pointer -= 1
+
+def removeElement(nums, val):
+        """
+        :type nums: List[int]
+        :type val: int
+        :rtype: int
+        """
+
+        last_pointer = len(nums) - 1
+        first_pointer = 0
+
+        # CORNER CASE if nums = []
+        if last_pointer < 0:
+            return 0
+
+        while first_pointer <= last_pointer:
+            if nums[first_pointer] == val:
+                nums[first_pointer] = nums[last_pointer]
+                last_pointer -= 1
+            else:
+                first_pointer += 1
+
+        return first_pointer

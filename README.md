@@ -10,6 +10,7 @@ Start: `01/02/2025`
 LeetCode No. | Question | Solution | Tags | Time Complexity | Space Complexity
 --- | :--- | :--- | :---:  | :---: | :---:
 88 | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/description/?envType=study-plan-v2&envId=top-interview-150) | [merge_sort](./solutions/leetCodeTopInterview.py) | `Two pointers`, `Sorting` | O(N+M) | O(1)
+27 | [Remove Element](https://leetcode.com/problems/remove-element/description/?envType=study-plan-v2&envId=top-interview-150) | [removeElement](./solutions/leetCodeTopInterview.py) | `Two pointers`, `Sorting` | O(N) | O(1)
 
 ## Resources
 - [Leetcode patterns scan](https://seanprashad.com/leetcode-patterns/)
